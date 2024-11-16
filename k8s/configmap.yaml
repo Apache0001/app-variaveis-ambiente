@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_NAME_CONFIG: "Aplicação ConfigMap"
+  APP_VERSION_CONFIG: "2.0"
+  APP_AUTHOR_CONFIG: "Pablo Veronez"
